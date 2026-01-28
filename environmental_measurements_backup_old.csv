@@ -1,0 +1,11 @@
+plot_id,temperature_c,precipitation_mm,elevation_m,aspect
+P001,12.3,850,320,North
+P002,11.8,920,385,Northeast
+P003,13.1,780,295,South
+P004,12.7,870,340,Northwest
+P005,13.5,740,275,Southeast
+P006,12.1,890,355,East
+P007,12.9,810,310,West
+P008,12.4,860,335,North
+P009,13.2,760,285,Southwest
+P010,12.6,880,345,Northeast

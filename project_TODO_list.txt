@@ -1,0 +1,60 @@
+TODO for this project:
+
+HIGH PRIORITY:
+[ ] Set up proper folder structure (Data/Input, Data/Processed, Outputs, R)
+[ ] Create RStudio project file
+[ ] Initialize Git repository
+[ ] Add .gitignore file
+[ ] Create comprehensive README
+
+CODE IMPROVEMENTS:
+[ ] Fix all hardcoded file paths to use here::here()
+[ ] Source helper_functions.R in other scripts
+[ ] Add proper documentation and comments
+[ ] Follow naming conventions (snake_case)
+[ ] Structure scripts with clear sections
+[ ] Load all packages at the beginning
+
+DATA TASKS:
+[ ] Move raw data to Data/Input/ folder
+[ ] Ensure data files are marked as read-only
+[ ] Save processed data to Data/Processed/
+[ ] Add data dictionary/metadata
+
+VISUALIZATION:
+[ ] Move all figure outputs to Outputs/Figures/
+[ ] Improve plot aesthetics
+[ ] Add proper axis labels and titles
+[ ] Use consistent color scheme
+[ ] Create a theme for all plots
+
+COLLABORATION:
+[ ] Create GitHub repository
+[ ] Add team members as collaborators
+[ ] Set up branch protection rules
+[ ] Create Issues for each task
+[ ] Use Pull Requests for code review
+[ ] Write meaningful commit messages
+
+DOCUMENTATION:
+[ ] Write clear README with project description
+[ ] Add installation instructions
+[ ] Document all functions
+[ ] Add license information
+[ ] Create CHANGELOG
+
+ANALYSIS:
+[ ] Verify all calculations
+[ ] Add statistical tests
+[ ] Check for outliers
+[ ] Validate results
+[ ] Add confidence intervals
+
+FINAL STEPS:
+[ ] Code review by all team members
+[ ] Test on different machines
+[ ] Check reproducibility
+[ ] Prepare for submission
+[ ] Archive final version
+
+Notes: Most of these should be tracked as GitHub Issues once we set up version control!

@@ -1,0 +1,38 @@
+IMPORTANT PROJECT NOTES - DO NOT DELETE!!!
+
+Data Collection Info:
+- Forest inventory conducted in September 2024
+- All measurements in European temperate forest sites
+- DBH measured at 1.3m height (standard breast height)
+- Age estimated from increment cores (not exact!)
+
+Known Issues:
+- Plot P003 had some missing canopy measurements - estimated from nearby plots
+- Environmental data file name has "backup_old" but it's actually the most recent version (ignore the name!)
+- Some tree heights might be overestimated due to measurement technique
+
+Analysis Goals:
+1. Calculate total basal area per plot
+2. Assess species diversity patterns
+3. Examine relationships between environmental variables and forest structure
+4. Create publication-quality figures for the manuscript
+
+File Organization TODO:
+- Need to create proper folder structure (Data/Input, Data/Processed, Outputs/Figures)
+- Scripts should be organized in an R/ folder
+- All file paths need to be made portable (currently hardcoded for John's laptop)
+
+Collaboration Notes:
+- Sarah will work on improving the visualization code
+- Mike is handling data processing improvements
+- Emma will restructure the main analysis script
+- We need to coordinate on updating the README together
+
+CRITICAL: Before submitting, make sure:
+- Version control is set up properly
+- All paths use here::here()
+- No absolute paths remain
+- Proper .gitignore is in place
+- All team members have committed their changes
+
+Contact: forest.project@university.edu
