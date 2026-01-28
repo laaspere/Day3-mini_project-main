@@ -1,14 +1,15 @@
 # Forest Analysis Script
 # Author: Dr. Smith
-# Date: ???
+# Date: 28.01.2026
 
-# Load packages
+
+# Load packages ----
 library(ggplot2)
+library(here)
 
-# Read the data (MAKE SURE THIS PATH WORKS ON YOUR MACHINE!)
-setwd("C:/Users/JohnDoe/Documents/forest_project")
-trees <- read.csv("forest_inventory_data.csv")
-env <- read.csv("environmental_measurements_backup_old.csv")
+# Read the data ----
+data_trees <- read.csv(here::here("forest_inventory_data.csv"))
+data_env <- read.csv(here::here("environmental_measurements_backup_old.csv"))
 
 # Quick check
 print(dim(trees))
