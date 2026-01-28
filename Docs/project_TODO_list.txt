@@ -2,9 +2,9 @@ TODO for this project:
 
 HIGH PRIORITY:
 [ ] Set up proper folder structure (Data/Input, Data/Processed, Outputs, R)
-[ ] Create RStudio project file
-[ ] Initialize Git repository
-[ ] Add .gitignore file
+[x ] Create RStudio project file
+[x] Initialize Git repository
+[x ] Add .gitignore file
 [ ] Create comprehensive README
 
 CODE IMPROVEMENTS:
