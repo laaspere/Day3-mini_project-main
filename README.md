@@ -1,5 +1,7 @@
 # SPROuT Day 3 Mini-Project: Apply Version Control to a Messy Project
 
+Edit edit edit
+
 **Science Powered through Reproducibility, Openness, and Teamwork**
 
 ::: {align="center"}
