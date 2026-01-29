@@ -4,13 +4,13 @@
 
 ::: {align="center"}
 | **📚 Course Info** | **⚙️ Technical** | **✅ Status** |
-|:--:|:--:|:--:|
+|:----------------------:|:----------------------:|:----------------------:|
 | ![Semester](https://img.shields.io/badge/Semester-Winter_2025%2F26-blue) | [![License](https://img.shields.io/badge/License-All_Rights_Reserved-red.svg)](LICENSE) | ![Status](https://img.shields.io/badge/Status-Teaching_Exercise-orange) |
 | ![Type](https://img.shields.io/badge/Type-Mini_Project-orange) | ![Language](https://img.shields.io/badge/Language-R-blue?logo=r) | ![Difficulty](https://img.shields.io/badge/Difficulty-Intermediate-yellow) |
 | ![Related](https://img.shields.io/badge/Related_to-Day_3_SAVE-blue) | ![Duration](https://img.shields.io/badge/Duration-25--30_min-blue) | ![Warning](https://img.shields.io/badge/⚠️-Intentionally_Messy-red) |
 :::
 
-![Static Badge](https://img.shields.io/badge/progress-link-red?link=https%3A%2F%2Fshields.io%2Fbadges)
+[![](https://img.shields.io/badge/progress-link-red)](https://shields.io/badges)
 
 ------------------------------------------------------------------------
 
