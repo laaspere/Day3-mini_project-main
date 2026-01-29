@@ -10,6 +10,8 @@
 | ![Related](https://img.shields.io/badge/Related_to-Day_3_SAVE-blue) | ![Duration](https://img.shields.io/badge/Duration-25--30_min-blue) | ![Warning](https://img.shields.io/badge/⚠️-Intentionally_Messy-red) |
 :::
 
+![Static Badge](https://img.shields.io/badge/progress-link-red?link=https%3A%2F%2Fshields.io%2Fbadges)
+
 ------------------------------------------------------------------------
 
 A hands-on team exercise to apply Day 3 concepts: Git workflows, branching, pull requests, and merge conflicts.
