@@ -1,0 +1,76 @@
+---
+title: "Introduction to Quarto"
+author: "Lauri"
+date: "2026-01-30"
+format: html
+---
+
+# Introduction
+
+Welcome to this introductory **Quarto** document, designed to demonstrate the basics of Markdown formatting and R code chunks. In this document, you'll learn how to structure your content and embed code for performing ecological data analysis in R.
+
+## Getting Started with Markdown
+
+Markdown allows you to format your text in various ways:
+
+-   Use `#` for headings, as shown above.
+-   **Bold text** and *italicize text*.
+-   Bullet points are created with `-` or `*`.
+-   Numbered lists like this:
+    1.  Item one
+    2.  Item two
+
+You can also add links, such as [Quarto documentation](https://quarto.org/docs/), to help students learn more.
+
+## Importing Libraries and Data
+
+Below, we use R to load commonly used libraries and also load some example data.
+
+```{r}
+#| label: Load-necessary-libraries
+#| echo: false
+#| output: false
+library(tidyverse)
+```
+
+Now let's load a sample dataset. For this example, we'll use the built-in iris dataset to illustrate some basic data manipulation techniques.
+
+```{r}
+#| label: Load-data
+data_test <- 
+  iris %>% 
+  dplyr::glimpse()
+```
+
+## Basic Data Manipulation
+
+This example demonstrates a simple filtering operation in R. Let's select only observations of the species setosa.
+
+```{r}
+#| label: Filter-data
+data_setosa <- 
+  data_test %>% 
+  dplyr::filter(Species == "setosa")
+
+dplyr::glimpse(data_setosa)
+```
+
+## Data Visualization
+
+Visualizations are essential for ecological data. Below, we create a scatter plot to examine the relationship between Sepal.Length and Sepal.Width for all species in the dataset.
+
+```{r}
+#| label: Scatter-plot
+# Scatter plot
+data_setosa  %>% 
+  ggplot2::ggplot(
+    mapping = ggplot2::aes(
+      x = Sepal.Length,
+       y = Sepal.Width)) +
+  ggplot2::geom_point() +
+  ggplot2::labs(
+    title = "Sepal Length vs. Sepal Width",
+       x = "Sepal Length",
+       y = "Sepal Width") +
+  ggplot2::theme_minimal()
+```
